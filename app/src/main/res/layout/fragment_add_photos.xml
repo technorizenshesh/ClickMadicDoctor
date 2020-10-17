@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/home_back"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:text="Add\nPhotos"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:layout_gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/doctorProfileImage"
+                        android:layout_centerHorizontal="true"
+                        android:src="@drawable/doctor_profile"/>
+
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/plus_blue"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tvName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:text="Dr. Jhon Smith"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"/>
+
+                <TextView
+                    android:id="@+id/tvQualification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="BSc, MBBS,DDVL ,MD-Dermitologist"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:textSize="@dimen/_12sdp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:weightSum="4"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginRight="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_25sdp"
+                    android:orientation="horizontal">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        app:riv_corner_radius="@dimen/_5sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/therapist_img2"/>
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        app:riv_corner_radius="@dimen/_5sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:src="@drawable/therapist_img1"/>
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        app:riv_corner_radius="@dimen/_5sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:src="@drawable/therapist_img3"/>
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        app:riv_corner_radius="@dimen/_5sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:scaleType="fitXY"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:src="@drawable/plus_blue_square"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rlNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+                android:background="@drawable/button_blue">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:textSize="@dimen/_13sdp"
+                    android:text="Next"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/light_blue_oval"
+                    android:src="@drawable/ic_white_check"/>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</layout>

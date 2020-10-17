@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">Clickmedic Doctor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="required">required</string>
+
+    <string-array name="specialization_category">
+        <item>Psychiatrist</item>
+        <item>Dermitologist</item>
+        <item>Trichologist</item>
+        <item>Cosmetologist</item>
+    </string-array>
+
+    <string-array name="qualification_category">
+        <item>BS, MBBS, DDVL, MD</item>
+    </string-array>
+
+    <string-array name="exp">
+        <item>1 year</item>
+        <item>2 year</item>
+        <item>3 year</item>
+        <item>4 year</item>
+        <item>5 year</item>
+        <item>6 year</item>
+    </string-array>
+
+    <string-array name="provin">
+        <item>Provine</item>
+    </string-array>
+
+    <string-array name="inrance_comp">
+        <item>Sucre</item>
+    </string-array>
+
+    <string-array name="city">
+        <item>City</item>
+    </string-array>
+
+</resources>

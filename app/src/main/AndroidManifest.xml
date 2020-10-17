@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.technorizen.doctorgodoctor">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_crysco_doctor"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_crysco_doctor_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".medicalprescription.MedicalPrescriptioncAtivity"
+            android:screenOrientation="portrait"></activity>
+        <activity android:name=".clinichistory.ClinicHistoryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activities.IntroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ChatingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AppointmentsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.RequestDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.VerifyMobileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.EnterMobileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".register.LoadRegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ForgotPassActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.GetStartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WelcomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

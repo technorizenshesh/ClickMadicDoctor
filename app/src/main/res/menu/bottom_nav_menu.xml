@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_blue"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_network"
+        android:icon="@drawable/nav_medical_net"
+        android:title="Medical Network" />
+
+    <item
+        android:id="@+id/nav_requests"
+        android:icon="@drawable/nav_requests"
+        android:title="Requests" />
+
+    <item
+        android:id="@+id/navi_chats_calls"
+        android:icon="@drawable/nav_calls_and_chats"
+        android:title="Calls &amp; Chats" />
+
+    <item
+        android:id="@+id/navi_profile"
+        android:icon="@drawable/nav_profile"
+        android:title="My Profile" />
+
+</menu>

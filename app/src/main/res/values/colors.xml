@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#00B6EC</color>
+    <color name="button_color">#00B6EC</color>
+    <color name="home_back">#70e4eaf6</color>
+    <color name="edit_back_color">#e5ecf6</color>
+    <color name="blue_circle_check">#7eb4ff</color>
+    <color name="trans_blue">#607eb4ff</color>
+    <color name="welcome_yellow">#927e75</color>
+    <color name="prime_green">#27ae60</color>
+    <color name="box_black">#4e4e4e</color>
+    <color name="red">#e31e26</color>
+    <color name="button_reject_color">#ff3d3d</color>
+    <color name="button_accept_color">#00B6EC</color>
+    <color name="blue_dark">#00B6EC</color>
+    <color name="green_light">#00cf4c</color>
+    <color name="green_very_light">#d8ffe6</color>
+    <color name="gray_color">#e9e9e9</color>
+    <color name="gray2">#b5b8bf</color>
+    <color name="light_blue">#aacaff</color>
+    <color name="cross_gray">#85868b</color>
+    <color name="light_black">#30000000</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="yellow_dark">#e6b12e</color>
+    <color name="green">#32CD32</color>
+    <color name="light_black1">#50000000</color>
+    <color name="light_black2">#20000000</color>
+    <color name="signup_text_color">#dfe5ee</color>
+    <color name="button_nav_icons_color">#c0cfe3</color>
+
+</resources>

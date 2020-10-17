@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:textStyle="bold"
+                android:text="Avilabilty"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    android:layout_centerVertical="true"
+                    android:buttonTint="#fe5900"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Monday to Friday"/>
+
+                <LinearLayout
+                    android:id="@+id/time1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/black_box"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="8:30"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="17:00"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    android:layout_centerVertical="true"
+                    android:buttonTint="#fe5900"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Break"/>
+
+                <LinearLayout
+                    android:id="@+id/time2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/black_box"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="8:30"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="17:00"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@color/box_black"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:checked="true"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_centerVertical="true"
+                android:buttonTint="#fe5900"
+                android:textSize="@dimen/_12sdp"
+                android:text="Personalized"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    android:layout_centerVertical="true"
+                    android:buttonTint="#fe5900"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Monday"/>
+
+                <LinearLayout
+                    android:id="@+id/time3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/black_box"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="8:30"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="17:00"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    android:layout_centerVertical="true"
+                    android:buttonTint="#fe5900"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Tuesday"/>
+
+                <LinearLayout
+                    android:id="@+id/time4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/black_box"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="8:30"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="17:00"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    android:layout_centerVertical="true"
+                    android:buttonTint="#fe5900"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Wednesday"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/black_box"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="8:30"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="17:00"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    android:layout_centerVertical="true"
+                    android:buttonTint="#fe5900"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Thrusday"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/black_box"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="8:30"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="17:00"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    android:layout_centerVertical="true"
+                    android:buttonTint="#fe5900"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Friday"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/black_box"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="8:30"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="17:00"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    android:layout_centerVertical="true"
+                    android:buttonTint="#fe5900"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Saturday"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/black_box"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="8:30"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="17:00"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    android:layout_centerVertical="true"
+                    android:buttonTint="#fe5900"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Sunday"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/black_box"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="8:30"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="17:00"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:checked="true"
+                    android:layout_centerVertical="true"
+                    android:buttonTint="#fe5900"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Break"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/black_box"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="8:30"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="17:00"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@color/box_black"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:textSize="@dimen/_15sdp"
+                    android:layout_centerVertical="true"
+                    android:text="Time for medical care"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/black_box"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="15"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="20"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="25"/>
+
+                    <View
+                        android:layout_width="@dimen/_2sdp"
+                        android:layout_height="match_parent"
+                        android:background="@color/box_black"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/black"
+                        android:text="30"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_30sdp"
+                android:layout_marginRight="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:padding="@dimen/_10sdp"
+                android:background="@drawable/button_blue">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_centerInParent="true"
+                    android:textSize="@dimen/_13sdp"
+                    android:text="Next"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/light_blue_oval"
+                    android:src="@drawable/ic_white_check"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</layout>
